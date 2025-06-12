@@ -2,7 +2,8 @@
 PyTest Framework
 
 What is Pytest?
-Pytest is a python based testing framework, which is used to write and execute test codes
+
+  Pytest is a python based testing framework, which is used to write and execute test codes
 
 Advantages of Pytest
  1. Pytest can run multiple tests in parallel, which reduces the execution time of the test suite.
@@ -17,6 +18,7 @@ How Pytest Framework Indentifies test files and test functions?
  3. If we use class, Name should start with "Test"
 
 How to Identify and Run multiple test in a suit?
+ 
  Pytest provides two ways to run the subset of the test suite.
   1. Select tests to run based on substring matching of test names.
      pytest -k <substring> -v
@@ -31,11 +33,13 @@ How to Identify and Run multiple test in a suit?
      - To use markers, we have to import "pytest module" in the test file
 
 Commands used to run tests:
+
   1. pytest
   2. pyetst -v : -v increases the verbosity.
   3. pytest <filename> -v: to run specific testfile
 
 How to mark the testcases?
+
 syntax: pytest.mark.<markname> : to mark testcases
         pytest -m <markname> : to run the marked testcase
 
